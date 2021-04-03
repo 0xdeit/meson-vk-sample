@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# build directories
+*build*/
+
+# clangd cache dir
+.cache
+
+# compilation database for lsp 
+compile_commands.json
